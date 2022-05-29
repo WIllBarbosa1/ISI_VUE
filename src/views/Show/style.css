@@ -1,0 +1,69 @@
+.show-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.table {
+  width: 80%;
+  margin: none;
+  border-collapse: collapse;
+  border: 1px solid #3D3D3D;
+}
+
+.table td, .table th {
+  padding: 10px;
+}
+
+.table td:nth-child(2), .table th:nth-child(2) {
+  text-align: center;
+}
+
+.table td:nth-child(4), .table th:nth-child(4) {
+  text-align: center;
+}
+
+.table-header {
+  color: #E5E5E5;
+  background-color: #14213D;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all linear 0.5s;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+button:hover {
+  border: 1px solid #FCA311;
+}
+
+.modal-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.inputs-container {
+  width: 90%;
+  height: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
+  justify-content: center;
+}
+
+.inputs-container > input {
+  padding: 5px;
+}
