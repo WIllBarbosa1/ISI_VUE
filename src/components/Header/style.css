@@ -8,10 +8,6 @@
   color: #E5E5E5;
 }
 
-#header > h2 {
-  cursor: pointer;
-}
-
 .nav-container {
   display: flex;
   gap: 10px;
